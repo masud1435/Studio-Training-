@@ -535,6 +535,9 @@ header{
       z-index: 1001;
       transform: translateY(0%);
       transition: transform 0.5s;
+      border-radius: 5px;
+      text-align: center;
+      border: 1px solid rgb(222, 121, 13);
   }
   .nav-links[data-visible="false"] {
       transform: translateY(-165%);
